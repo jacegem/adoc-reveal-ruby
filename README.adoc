@@ -10,6 +10,9 @@ bundle install
 [source]
 bundle exec asciidoctor-revealjs -r asciidoctor-kroki  CONTENT_FILE.adoc
 
+[source]
+bundle exec asciidoctor-revealjs -r asciidoctor-kroki  docs/content.adoc
+
 == Refs
 
 - https://github.com/bentolor/java9to13
